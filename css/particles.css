@@ -1,0 +1,46 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	background: #000; 
+}
+
+#title { 
+	position: fixed; 
+	top: 80px; 
+	left: 80px;
+	margin: 0px; 
+	color: #fff; 
+	font: normal normal lighter 80px/80px BlinkMacSystemFont, 'Helvetica-Light', 'Helvetica-Neue', Helvetica; 
+	text-align: center;
+}
+
+#end { 
+	position: fixed; 
+	bottom: 80px; 
+	left: 80px; 
+	color: #fff; 
+	opacity: 0;
+}
+
+#end h2 {
+	margin: 0;
+	font: normal normal lighter 60px/60px BlinkMacSystemFont, 'Helvetica-Light', 'Helvetica-Neue', Helvetica;
+}
+
+#end p {
+	margin: 0;
+	margin-top: 16px;
+	margin-left: 10px;
+	font: normal normal 100 16px/36px 'Helvetica-Light', 'Helvetica-Neue', Helvetica;
+	letter-spacing: 1px;
+}
+
+.fade_in { 
+	opacity: 1; 
+	transition: 2s ease-in-out; 
+}
+
+.fade_out { 
+	opacity: 0; 
+	transition: 2s ease-in-out; 
+}
